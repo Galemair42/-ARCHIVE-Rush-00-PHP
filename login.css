@@ -1,0 +1,46 @@
+#form {
+	margin: auto;
+	margin-top: 200px;
+	width: 300px;
+	border: 3px solid #666;
+	border-radius: 10px;
+	box-shadow: 0 5px 10px grey;
+}
+
+h1 {
+	text-align: center;
+}
+
+#login {
+	display: grid;
+	margin: 0 10px;
+}
+
+input[type=text], input[type=password] {
+	padding 5px 10px;
+	font-size: 14px;
+	border-radius: 10px;
+	margin: 8px 0;
+}
+
+#button {
+	font-size: 18px;
+	font-weight: bold;
+	background-color: white;
+	padding: 8px 12px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	width: 100%;
+}
+
+#button:hover {
+	background-color: #e65c00;
+	color: white;
+}
+
+#wrongPw {
+	color: red;
+	font-size: 12px;
+}

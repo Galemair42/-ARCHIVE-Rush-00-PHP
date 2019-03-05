@@ -1,0 +1,111 @@
+#dbBar {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 40px;
+	width: 400px;
+	height: 60px;
+	text-align: center;
+}
+
+.dropdown {
+	margin: auto;
+	position: relative;
+	display: inline-block;
+}
+
+.dropBtn {
+	display: inline;
+	font-weight: bold;
+	font-size: 14px;
+	color: white;
+	padding: 20px 30px 20px 30px;
+	margin-right: 30px;
+	margin-left: 30px;
+	background-color: #1a1a1a;
+	border: none;
+	box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropBtnCurrent {
+	display: inline;
+	font-weight: bold;
+	font-size: 14px;
+	color: black;
+	padding: 20px 30px 20px 30px;
+	margin-right: 30px;
+	margin-left: 30px;
+	background-color: white;
+	border: none;
+	box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropBtn:hover, .dropBtnCurrent:hover {
+	color: #1a1a1a;
+	background-color: white;
+	cursor: pointer;
+}
+
+.dropdownContent {
+	display: none;
+	background-color: #1a1a1a;
+	min-width: 150px;
+	box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	z-index: 1;
+}
+
+.dropdownContent a {
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdownContent a:hover {
+	cursor: pointer;
+}
+
+.dropdown:hover .dropdownContent {
+	margin: auto;
+	display: block;
+}
+
+.dropdownContent a:hover {
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+
+.userFormContainer {
+	width: 70%;
+	min-width: 800px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.userFormNew {
+	margin: auto;
+	width: 200px;
+}
+
+div[for=user], div[for=passwd] {
+	margin: 10px;
+}
+
+.userFormNew input {
+	margin: 10px;
+	padding: 5px 10px;
+}
+
+.adminPerm {
+	display: inline;
+	font-size: 13px;
+}
+
+.submitBtn:hover {
+	cursor: pointer;
+}
